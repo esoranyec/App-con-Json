@@ -14,6 +14,9 @@ gem 'sqlite3'
 gem 'puma', '~> 3.7'
 gem 'jbuilder', '~> 2.7'
 gem 'active_model_serializers', '~> 0.10.7'
+gem 'faraday', '~> 0.15.2'
+gem 'oj', '~> 3.6', '>= 3.6.6'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
@@ -30,6 +33,7 @@ gem 'active_model_serializers', '~> 0.10.7'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+
 end
 
 group :development do
